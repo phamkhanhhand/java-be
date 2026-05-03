@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/BudgetPlan")
-public class BudgetPlanController {
+public class PlanController {
     private final BudgetPlanService budgetPlanService;
 
     @PostMapping("createPlan")
